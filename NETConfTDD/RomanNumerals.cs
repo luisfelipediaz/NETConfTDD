@@ -6,7 +6,13 @@ namespace NETConfTDD
     {
         public static string ArabicToRoman(int number)
         {
-            return "I";
+            string romanNumer = "";
+            for (int i = 0; i < number; i++)
+            {
+                romanNumer += "I";
+            }
+
+            return romanNumer;
         }
     }
 }

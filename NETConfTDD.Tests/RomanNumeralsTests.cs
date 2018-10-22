@@ -18,5 +18,25 @@ namespace NETConfTDD.Tests
             //Assert
             Assert.AreEqual(esperado, actual);
         }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_II()
+        {
+            string expected = "II";
+
+            string actual = RomanNumerals.ArabicToRoman(2);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_III()
+        {
+            string expected = "III";
+
+            string actual = RomanNumerals.ArabicToRoman(3);
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

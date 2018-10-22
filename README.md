@@ -14,8 +14,8 @@ In each of the tests there must be three parts or sections:
 3. Assert: In this section its asserted the result of act its the expected.
 
 
-### First step
+### First step refactor
 
-It's necessary that that you implement the case to number 2 and number 3
+Refactor of code
 
-[Step 1 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step1)
+[Step 1 refactor solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step1_Refactor)
