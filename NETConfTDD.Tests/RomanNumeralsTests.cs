@@ -9,10 +9,13 @@ namespace NETConfTDD.Tests
         [TestMethod]
         public void Should_ArabicToRoman_Return_I()
         {
+            //Arrange
             string esperado = "I";
 
+            //Act
             string actual = RomanNumerals.ArabicToRoman(1);
 
+            //Assert
             Assert.AreEqual(esperado, actual);
         }
     }
