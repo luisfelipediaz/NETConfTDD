@@ -17,3 +17,5 @@ In each of the tests there must be three parts or sections:
 ### First step
 
 It's necessary that that you implement the case to number 2 and number 3
+
+[Step 1 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step1)
