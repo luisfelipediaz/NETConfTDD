@@ -13,3 +13,7 @@ In each of the tests there must be three parts or sections:
 2. Act: In her its executed the method or function to test.
 3. Assert: In this section its asserted the result of act its the expected.
 
+
+###First step
+
+It's necessary that that you implement the case to number 2 and number 3
