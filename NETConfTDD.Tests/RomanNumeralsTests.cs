@@ -68,5 +68,15 @@ namespace NETConfTDD.Tests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_IX_WhenCalledWith_9()
+        {
+            string expected = "IX";
+
+            string actual = RomanNumerals.ArabicToRoman(9);
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
