@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace NETConfTDD
 {
@@ -6,13 +7,13 @@ namespace NETConfTDD
     {
         public static string ArabicToRoman(int number)
         {
-            string romanNumer = "";
+            StringBuilder romanNumber = new StringBuilder();
             for (int i = 0; i < number; i++)
             {
-                romanNumer += "I";
+                romanNumber.Append("I");
             }
 
-            return romanNumer;
+            return romanNumber.ToString();
         }
     }
 }
