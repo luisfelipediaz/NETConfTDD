@@ -7,7 +7,7 @@ namespace NETConfTDD.Tests
     public class RomanNumeralsTests
     {
         [TestMethod]
-        public void Should_ArabicToRoman_Return_I()
+        public void Should_ArabicToRoman_Return_I_WhenCalledWith_1()
         {
             //Arrange
             string esperado = "I";
@@ -20,7 +20,7 @@ namespace NETConfTDD.Tests
         }
 
         [TestMethod]
-        public void Should_ArabicToRoman_Return_II()
+        public void Should_ArabicToRoman_Return_II_WhenCalledWith_2()
         {
             string expected = "II";
 
@@ -30,11 +30,41 @@ namespace NETConfTDD.Tests
         }
 
         [TestMethod]
-        public void Should_ArabicToRoman_Return_III()
+        public void Should_ArabicToRoman_Return_III_WhenCalledWith_3()
         {
             string expected = "III";
 
             string actual = RomanNumerals.ArabicToRoman(3);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_IV_WhenCalledWith_4()
+        {
+            string expected = "IV";
+
+            string actual = RomanNumerals.ArabicToRoman(4);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_V_WhenCalledWith_5()
+        {
+            string expected = "V";
+
+            string actual = RomanNumerals.ArabicToRoman(5);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_I_WhenCalledWith_6()
+        {
+            string expected = "VI";
+
+            string actual = RomanNumerals.ArabicToRoman(6);
 
             Assert.AreEqual(expected, actual);
         }
