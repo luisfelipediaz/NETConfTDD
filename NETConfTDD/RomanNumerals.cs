@@ -9,7 +9,7 @@ namespace NETConfTDD
         {
             StringBuilder romanNumber = new StringBuilder();
             int remaining = number;
-            if (remaining == 9)
+            if (remaining >= 9)
             {
                 romanNumber.Append("IX");
                 remaining -= 9;
@@ -20,7 +20,7 @@ namespace NETConfTDD
                 remaining -= 5;
             }
 
-            if (remaining == 4)
+            if (remaining >= 4)
             {
                 romanNumber.Append("IV");
                 remaining -= 4;
