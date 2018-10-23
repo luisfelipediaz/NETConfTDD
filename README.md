@@ -16,6 +16,6 @@ In each of the tests there must be three parts or sections:
 
 ### First step refactor
 
-Refactor of code
+In this step solution the number 4 and 5
 
-[Step 1 refactor solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step1_Refactor)
+[Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
