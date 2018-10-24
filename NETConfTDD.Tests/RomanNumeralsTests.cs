@@ -138,5 +138,15 @@ namespace NETConfTDD.Tests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_XIV_WhenCalledWith_14()
+        {
+            string expected = "XIV";
+
+            string actual = RomanNumerals.ArabicToRoman(14);
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
