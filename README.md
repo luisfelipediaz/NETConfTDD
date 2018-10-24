@@ -5,17 +5,12 @@ TDD (Test Driven Development)
 ![alt text](http://iwt2.org/wp-content/uploads/2015/06/tdd-logo-300x235.png)
 
 
-## Parts of a tests
+## Solución de los números 4 al 8
 
-In each of the tests there must be three parts or sections:
+Pueden verificar en este repositorio la respuesta propuesta para los números del 4 al 8
 
-1. Arrange: In this part its declared and instansed all objects and variables necessaries to run test.
-2. Act: In her its executed the method or function to test.
-3. Assert: In this section its asserted the result of act its the expected.
+## Para hacer:
 
-
-### First step refactor
-
-In this step solution the number 4 and 5
+En la solución se evidencia un patrón de código repetido nuevamente, generemos una solución para refactorizar estos casos.
 
 [Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
