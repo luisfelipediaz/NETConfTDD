@@ -40,9 +40,7 @@ Refactorizamos, si podemos.
 ### Por hacer:
 Generen las pruebas y sus correspondientes implementaciones para los siguientes casos:
 
-* ```csharp 
-public void Should_ArabicToRoman_When_2_Return_II()
-```
+* ```csharp public void Should_ArabicToRoman_When_2_Return_II()```
 
 * `public void Should_ArabicToRoman_When_3_Return_III()`
 
