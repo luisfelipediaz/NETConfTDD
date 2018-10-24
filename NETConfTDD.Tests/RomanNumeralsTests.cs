@@ -7,36 +7,22 @@ namespace NETConfTDD.Tests
     public class RomanNumeralsTests
     {
         [TestMethod]
-        public void Should_ArabicToRoman_Return_I_WhenCalledWith_1()
+        public void ArabicToRoman_From_I_To_III()
         {
             //Arrange
-            string esperado = "I";
+            string expected1 = "I";
+            string expected2 = "II";
+            string expected3 = "III";
 
             //Act
-            string actual = RomanNumerals.ArabicToRoman(1);
+            string actual1 = RomanNumerals.ArabicToRoman(1);
+            string actual2 = RomanNumerals.ArabicToRoman(2);
+            string actual3 = RomanNumerals.ArabicToRoman(3);
 
             //Assert
-            Assert.AreEqual(esperado, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_II_WhenCalledWith_2()
-        {
-            string expected = "II";
-
-            string actual = RomanNumerals.ArabicToRoman(2);
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_III_WhenCalledWith_3()
-        {
-            string expected = "III";
-
-            string actual = RomanNumerals.ArabicToRoman(3);
-
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected1, actual1);
+            Assert.AreEqual(expected2, actual2);
+            Assert.AreEqual(expected3, actual3);
         }
 
         [TestMethod]
@@ -50,43 +36,22 @@ namespace NETConfTDD.Tests
         }
 
         [TestMethod]
-        public void Should_ArabicToRoman_Return_V_WhenCalledWith_5()
+        public void ArabicToRoman_From_V_To_VIII()
         {
-            string expected = "V";
+            string expected1 = "V";
+            string expected2 = "VI";
+            string expected3 = "VII";
+            string expected4 = "VIII";
 
-            string actual = RomanNumerals.ArabicToRoman(5);
+            string actual1 = RomanNumerals.ArabicToRoman(5);
+            string actual2 = RomanNumerals.ArabicToRoman(6);
+            string actual3 = RomanNumerals.ArabicToRoman(7);
+            string actual4 = RomanNumerals.ArabicToRoman(8);
 
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_VI_WhenCalledWith_6()
-        {
-            string expected = "VI";
-
-            string actual = RomanNumerals.ArabicToRoman(6);
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_VII_WhenCalledWith_7()
-        {
-            string expected = "VII";
-
-            string actual = RomanNumerals.ArabicToRoman(7);
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_VII_WhenCalledWith_8()
-        {
-            string expected = "VIII";
-
-            string actual = RomanNumerals.ArabicToRoman(8);
-
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected1, actual1);
+            Assert.AreEqual(expected2, actual2);
+            Assert.AreEqual(expected3, actual3);
+            Assert.AreEqual(expected4, actual4);
         }
 
         [TestMethod]
@@ -100,43 +65,22 @@ namespace NETConfTDD.Tests
         }
 
         [TestMethod]
-        public void Should_ArabicToRoman_Return_X_WhenCalledWith_10()
+        public void ArabicToRoman_From_X_To_XIII()
         {
-            string expected = "X";
+            string expected1 = "X";
+            string expected2 = "XI";
+            string expected3 = "XII";
+            string expected4 = "XIII";
 
-            string actual = RomanNumerals.ArabicToRoman(10);
+            string actual1 = RomanNumerals.ArabicToRoman(10);
+            string actual2 = RomanNumerals.ArabicToRoman(11);
+            string actual3 = RomanNumerals.ArabicToRoman(12);
+            string actual4 = RomanNumerals.ArabicToRoman(13);
 
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_XI_WhenCalledWith_11()
-        {
-            string expected = "XI";
-
-            string actual = RomanNumerals.ArabicToRoman(11);
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_XII_WhenCalledWith_12()
-        {
-            string expected = "XII";
-
-            string actual = RomanNumerals.ArabicToRoman(12);
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_XIII_WhenCalledWith_13()
-        {
-            string expected = "XIII";
-
-            string actual = RomanNumerals.ArabicToRoman(13);
-
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected1, actual1);
+            Assert.AreEqual(expected2, actual2);
+            Assert.AreEqual(expected3, actual3);
+            Assert.AreEqual(expected4, actual4);
         }
 
         [TestMethod]
@@ -150,43 +94,22 @@ namespace NETConfTDD.Tests
         }
 
         [TestMethod]
-        public void Should_ArabicToRoman_Return_XV_WhenCalledWith_15()
+        public void ArabicToRoman_From_XV_To_XVIII()
         {
-            string expected = "XV";
+            string expected1 = "XV";
+            string expected2 = "XVI";
+            string expected3 = "XVII";
+            string expected4 = "XVIII";
 
-            string actual = RomanNumerals.ArabicToRoman(15);
+            string actual1 = RomanNumerals.ArabicToRoman(15);
+            string actual2 = RomanNumerals.ArabicToRoman(16);
+            string actual3 = RomanNumerals.ArabicToRoman(17);
+            string actual4 = RomanNumerals.ArabicToRoman(18);
 
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_XVI_WhenCalledWith_16()
-        {
-            string expected = "XVI";
-
-            string actual = RomanNumerals.ArabicToRoman(16);
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_XVII_WhenCalledWith_17()
-        {
-            string expected = "XVII";
-
-            string actual = RomanNumerals.ArabicToRoman(17);
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Should_ArabicToRoman_Return_XVIII_WhenCalledWith_18()
-        {
-            string expected = "XVIII";
-
-            string actual = RomanNumerals.ArabicToRoman(18);
-
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected1, actual1);
+            Assert.AreEqual(expected2, actual2);
+            Assert.AreEqual(expected3, actual3);
+            Assert.AreEqual(expected4, actual4);
         }
     }
 }
