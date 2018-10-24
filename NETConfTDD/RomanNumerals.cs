@@ -31,21 +31,13 @@ namespace NETConfTDD
             {
                 romanNumber.Append("IX");
             }
-            else if (number == 10)
+            else if (number >= 10)
             {
                 romanNumber.Append("X");
-            }
-            else if (number == 11)
-            {
-                romanNumber.Append("XI");
-            }
-            else if (number == 12)
-            {
-                romanNumber.Append("XII");
-            }
-            else
-            {
-                romanNumber.Append("XIII");
+                for (int i = 10; i < number; i++)
+                {
+                    romanNumber.Append("I");
+                }
             }
 
             return romanNumber.ToString();
