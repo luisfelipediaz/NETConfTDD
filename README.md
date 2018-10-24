@@ -4,18 +4,10 @@ TDD (Test Driven Development)
 
 ![alt text](http://iwt2.org/wp-content/uploads/2015/06/tdd-logo-300x235.png)
 
+### Practiquemos con más casos
 
-## Parts of a tests
+** Mediante el ciclo TDD escriban y resuelvan los casos para los números 4, 5, 6, 7 y 8.
 
-In each of the tests there must be three parts or sections:
-
-1. Arrange: In this part its declared and instansed all objects and variables necessaries to run test.
-2. Act: In her its executed the method or function to test.
-3. Assert: In this section its asserted the result of act its the expected.
-
-
-### First step refactor
-
-In this step solution the number 4 and 5
+Y recuerden amigos... solo escriban en cada caso el MÍNIMO CÓDIGO PARA QUE PASE LA PRUEBA.
 
 [Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
