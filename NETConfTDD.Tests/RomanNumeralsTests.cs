@@ -69,6 +69,7 @@ namespace NETConfTDD.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [TestMethod]
         public void Should_ArabicToRoman_Return_VII_WhenCalledWith_7()
         {
             string expected = "VII";
@@ -94,6 +95,46 @@ namespace NETConfTDD.Tests
             string expected = "IX";
 
             string actual = RomanNumerals.ArabicToRoman(9);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_X_WhenCalledWith_10()
+        {
+            string expected = "X";
+
+            string actual = RomanNumerals.ArabicToRoman(10);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_XI_WhenCalledWith_11()
+        {
+            string expected = "XI";
+
+            string actual = RomanNumerals.ArabicToRoman(11);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_XII_WhenCalledWith_12()
+        {
+            string expected = "XII";
+
+            string actual = RomanNumerals.ArabicToRoman(12);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_XIII_WhenCalledWith_13()
+        {
+            string expected = "XIII";
+
+            string actual = RomanNumerals.ArabicToRoman(13);
 
             Assert.AreEqual(expected, actual);
         }
