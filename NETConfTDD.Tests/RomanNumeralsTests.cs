@@ -60,11 +60,31 @@ namespace NETConfTDD.Tests
         }
 
         [TestMethod]
-        public void Should_ArabicToRoman_Return_I_WhenCalledWith_6()
+        public void Should_ArabicToRoman_Return_VI_WhenCalledWith_6()
         {
             string expected = "VI";
 
             string actual = RomanNumerals.ArabicToRoman(6);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_VII_WhenCalledWith_7()
+        {
+            string expected = "VII";
+
+            string actual = RomanNumerals.ArabicToRoman(7);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_VII_WhenCalledWith_8()
+        {
+            string expected = "VIII";
+
+            string actual = RomanNumerals.ArabicToRoman(7);
 
             Assert.AreEqual(expected, actual);
         }
