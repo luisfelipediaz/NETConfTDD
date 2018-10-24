@@ -8,27 +8,24 @@ namespace NETConfTDD
         public static string ArabicToRoman(int number)
         {
             StringBuilder romanNumber = new StringBuilder();
-            int remaining = number;
-            if (remaining >= 9)
+            if (number <= 3)
             {
-                romanNumber.Append("IX");
-                remaining -= 9;
+                for (int i = 0; i < number; i++)
+                {
+                    romanNumber.Append("I");
+                }
             }
-            if (remaining >= 5)
-            {
-                romanNumber.Append("V");
-                remaining -= 5;
-            }
-
-            if (remaining >= 4)
+            else if (number == 4)
             {
                 romanNumber.Append("IV");
-                remaining -= 4;
             }
-
-            for (int i = 0; i < remaining; i++)
+            else if (number >= 5)
             {
-                romanNumber.Append("I");
+                romanNumber.Append("V");
+                for (int i = 5; i < number; i++)
+                {
+                    romanNumber.Append("I");
+                }
             }
 
             return romanNumber.ToString();
