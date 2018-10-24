@@ -21,10 +21,7 @@ namespace NETConfTDD
             }
             else if (number == 5)
             {
-                for (int i = 0; i < number; i++)
-                {
-                    romanNumber.Append("I");
-                }
+                romanNumber.Append("V");
             }
             else if (number == 6)
             {
@@ -34,20 +31,13 @@ namespace NETConfTDD
             {
                 romanNumber.Append("VII");
             }
-            else if (number == 5)
-            {
-                romanNumber.Append("V");
-            }
             else
             {
-<<<<<<< HEAD
-                romanNumber.Append("VI");
-=======
                 romanNumber.Append("VIII");
->>>>>>> origin/Step2_Refactor
             }
 
             return romanNumber.ToString();
         }
+
     }
 }
