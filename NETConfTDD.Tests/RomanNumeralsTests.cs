@@ -84,7 +84,7 @@ namespace NETConfTDD.Tests
         {
             string expected = "VIII";
 
-            string actual = RomanNumerals.ArabicToRoman(7);
+            string actual = RomanNumerals.ArabicToRoman(8);
 
             Assert.AreEqual(expected, actual);
         }
