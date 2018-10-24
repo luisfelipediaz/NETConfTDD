@@ -4,18 +4,12 @@ TDD (Test Driven Development)
 
 ![alt text](http://iwt2.org/wp-content/uploads/2015/06/tdd-logo-300x235.png)
 
+### Refactorizar
 
-## Parts of a tests
+Si implementamos la mínima cantidad de código para que las pruebas pasaran, debimos haber escrito una serie de if - else if - else
 
-In each of the tests there must be three parts or sections:
+Refactorizar en este caso es evidenciar que existe código repetido, el cual puede ser mejorado mediante un ciclo.
 
-1. Arrange: In this part its declared and instansed all objects and variables necessaries to run test.
-2. Act: In her its executed the method or function to test.
-3. Assert: In this section its asserted the result of act its the expected.
-
-
-### First step refactor
-
-Refactor of code
+**Por favor refactoricen la implementación para que siga satisfaciendo las tres pruebas.**
 
 [Step 1 refactor solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step1_Refactor)
