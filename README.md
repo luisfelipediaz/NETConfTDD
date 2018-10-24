@@ -4,18 +4,12 @@ TDD (Test Driven Development)
 
 ![alt text](http://iwt2.org/wp-content/uploads/2015/06/tdd-logo-300x235.png)
 
+## Solución del refactor de casos 4 al 8
 
-## Parts of a tests
+En esta propuesta de refactor se generalizaron los casos de las "I".
 
-In each of the tests there must be three parts or sections:
+## Para hacer
 
-1. Arrange: In this part its declared and instansed all objects and variables necessaries to run test.
-2. Act: In her its executed the method or function to test.
-3. Assert: In this section its asserted the result of act its the expected.
-
-
-### First step refactor
-
-In this step solution the number 4 and 5
+Generemos los casos resolviendo hasta el número 13.
 
 [Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
