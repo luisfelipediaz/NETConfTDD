@@ -32,7 +32,7 @@ Podrán encontrar la primera prueba en RomanNumeralsTests.cs.
 Ya pensé que resolver el 1 es el caso más sencillo que da inicio al problema.
 ### Cuarto paso
 
-*Por favor escriban dentro del método ArabicToRoman el MÍNIMO CÓDIGO NECESARIO para pasar la primera prueba.
+**Por favor escriban dentro del método ArabicToRoman el MÍNIMO CÓDIGO NECESARIO para pasar la primera prueba.**
 
 ### Quinto paso
 Refactorizamos, si podemos.
@@ -40,8 +40,8 @@ Refactorizamos, si podemos.
 ### Por hacer:
 Generen las pruebas y sus correspondientes implementaciones para las siguientes pruebas:
 
-*public void Should_ArabicToRoman_When_2_Return_II()
+* public void Should_ArabicToRoman_When_2_Return_II()
 
-*public void Should_ArabicToRoman_When_2_Return_II()
+* public void Should_ArabicToRoman_When_2_Return_II()
 
 [Step 1 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step1)
