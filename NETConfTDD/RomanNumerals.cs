@@ -19,21 +19,13 @@ namespace NETConfTDD
             {
                 romanNumber.Append("IV");
             }
-            else if (number == 5)
+            else if (number >= 5)
             {
                 romanNumber.Append("V");
-            }
-            else if (number == 6)
-            {
-                romanNumber.Append("VI");
-            }
-            else if (number == 7)
-            {
-                romanNumber.Append("VII");
-            }
-            else
-            {
-                romanNumber.Append("VIII");
+                for (int i = 0; i < number; i++)
+                {
+                    romanNumber.Append("I");
+                }
             }
 
             return romanNumber.ToString();
