@@ -6,7 +6,7 @@ namespace NETConfTDD
     {
         public static string ArabicToRoman(int number)
         {
-            return "I";
+            throw new NotImplementedException();
         }
     }
 }

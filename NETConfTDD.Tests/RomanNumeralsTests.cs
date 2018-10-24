@@ -7,7 +7,7 @@ namespace NETConfTDD.Tests
     public class RomanNumeralsTests
     {
         [TestMethod]
-        public void Should_ArabicToRoman_Return_I()
+        public void Should_ArabicToRoman_When_1_Return_I()
         {
             //Arrange
             string esperado = "I";
