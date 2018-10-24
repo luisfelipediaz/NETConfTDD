@@ -38,10 +38,10 @@ Ya pensé que resolver el 1 es el caso más sencillo que da inicio al problema.
 Refactorizamos, si podemos.
 
 ### Por hacer:
-Generen las pruebas y sus correspondientes implementaciones para las siguientes pruebas:
+Generen las pruebas y sus correspondientes implementaciones para los siguientes casos:
 
-* public void Should_ArabicToRoman_When_2_Return_II()
+* `public void Should_ArabicToRoman_When_2_Return_II()`
 
-* public void Should_ArabicToRoman_When_2_Return_II()
+* `public void Should_ArabicToRoman_When_3_Return_III()`
 
 [Step 1 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step1)
