@@ -8,7 +8,6 @@ namespace NETConfTDD
         public static string ArabicToRoman(int number)
         {
             StringBuilder romanNumber = new StringBuilder();
-
             if (number <= 3)
             {
                 for (int i = 0; i < number; i++)
@@ -22,11 +21,30 @@ namespace NETConfTDD
             }
             else if (number == 5)
             {
+                for (int i = 0; i < number; i++)
+                {
+                    romanNumber.Append("I");
+                }
+            }
+            else if (number == 6)
+            {
+                romanNumber.Append("VI");
+            }
+            else if (number == 7)
+            {
+                romanNumber.Append("VII");
+            }
+            else if (number == 5)
+            {
                 romanNumber.Append("V");
             }
             else
             {
+<<<<<<< HEAD
                 romanNumber.Append("VI");
+=======
+                romanNumber.Append("VIII");
+>>>>>>> origin/Step2_Refactor
             }
 
             return romanNumber.ToString();
