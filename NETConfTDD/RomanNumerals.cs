@@ -22,7 +22,7 @@ namespace NETConfTDD
             else if (number >= 5)
             {
                 romanNumber.Append("V");
-                for (int i = 0; i < number; i++)
+                for (int i = 5; i < number; i++)
                 {
                     romanNumber.Append("I");
                 }
