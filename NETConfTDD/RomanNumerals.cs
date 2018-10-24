@@ -39,9 +39,17 @@ namespace NETConfTDD
                     romanNumber.Append("I");
                 }
             }
-            else
+            else if (number == 14)
             {
                 romanNumber.Append("XIV");
+            }
+            else if (number >= 15 && number <= 18)
+            {
+                romanNumber.Append("XV");
+                for (int i = 15; i < number; i++)
+                {
+                    romanNumber.Append("I");
+                }
             }
 
             return romanNumber.ToString();

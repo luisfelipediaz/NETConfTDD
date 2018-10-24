@@ -148,5 +148,45 @@ namespace NETConfTDD.Tests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_XV_WhenCalledWith_15()
+        {
+            string expected = "XV";
+
+            string actual = RomanNumerals.ArabicToRoman(15);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_XVI_WhenCalledWith_16()
+        {
+            string expected = "XVI";
+
+            string actual = RomanNumerals.ArabicToRoman(16);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_XVII_WhenCalledWith_17()
+        {
+            string expected = "XVII";
+
+            string actual = RomanNumerals.ArabicToRoman(17);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Should_ArabicToRoman_Return_XVIII_WhenCalledWith_18()
+        {
+            string expected = "XVIII";
+
+            string actual = RomanNumerals.ArabicToRoman(18);
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
