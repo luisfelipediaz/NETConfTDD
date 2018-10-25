@@ -31,9 +31,9 @@ En linux:
 
 Vamos a utilizar el patrón AAA para seccionar los casos de pruebas:
 
-1. Arrange (Preparación): Donde creamos los objetos necesarios para ejecutar el caso de pruebas.
-2. Act (Ejecución): Donde se ejecuta el SUT (Software under Test), es decir el método que vamos a probar.
-3. Assert (Acertar): Donde verificamos el resultado esperado del caso de pruebas.
+1. **Arrange (Preparación):** Donde creamos los objetos necesarios para ejecutar el caso de pruebas.
+2. **Act (Ejecución):** Donde se ejecuta el SUT (Software under Test), es decir el método que vamos a probar.
+3. **Assert (Acertar):** Donde verificamos el resultado esperado del caso de pruebas.
 
 
 ### Primer paso
