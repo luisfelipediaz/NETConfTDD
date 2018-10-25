@@ -13,4 +13,4 @@ Pueden verificar en este repositorio la respuesta propuesta para los números de
 
 En la solución se evidencia un patrón de código repetido nuevamente, generemos una solución para refactorizar estos casos.
 
-[Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
+[Step 2 solution refactor](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2_Refactor)
