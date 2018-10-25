@@ -4,6 +4,18 @@ TDD (Test Driven Development)
 
 Vamos a convertir números arábigos a romanos.
 
+## Creémos el proyecto
+
+En linux:
+
+1. `mkdir NETConfTDD`
+2. `cd NETConfTDD`
+3. `dotnet new sln name=NETConfTDD`
+4. `dotnet new classlib name=NETConfTDD`
+5. `dotnet new mstest --name='NETConfTDD.Tests'`
+6. `dotnet add "NETConfTDD.Tests/NETConfTDD.Tests.csproj" reference "NETConfTDD/NETConfTDD.csproj"`
+7. `dotnet sln NETConfTDD.sln add 'NETConfTDD.Tests/NETConfTDD.Tests.csproj' 'NETConfTDD/NETConfTDD.csproj'`
+
 ![alt text](http://iwt2.org/wp-content/uploads/2015/06/tdd-logo-300x235.png)
 
 ## Ciclo TDD
