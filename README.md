@@ -13,4 +13,4 @@ Volvimos a evidenciar que se repite el patrón de las "I" e hicimos el ciclo cor
 
 Ahora resolvamos los casos de los números 14 al 18.
 
-[Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
+[Step 4 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step4)
