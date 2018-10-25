@@ -12,4 +12,4 @@ En este paso generamos los casos para resolver los números hasta el 13.
 
 Por favor refactoricen los casos resueltos.
 
-[Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
+[Step 3 solution refactor](https://github.com/luisfelipediaz/NETConfTDD/tree/Step3_Refactor)
