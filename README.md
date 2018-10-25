@@ -12,4 +12,4 @@ En esta propuesta de refactor se generalizaron los casos de las "I".
 
 Generemos los casos resolviendo hasta el número 13.
 
-[Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
+[Step 3 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step3)
