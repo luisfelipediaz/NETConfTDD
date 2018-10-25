@@ -14,4 +14,4 @@ Puede que esto haya sido muy repetitivo, pero habiendo escrito este código más
 
 Las pruebas son parte integral de nuestra aplicación... por lo tanto también debemos mantenerlas y REFACTORIZARLAS.
 
-[Step 2 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step2)
+[Step 4 solution refactor](https://github.com/luisfelipediaz/NETConfTDD/tree/Step4_Refactor)
