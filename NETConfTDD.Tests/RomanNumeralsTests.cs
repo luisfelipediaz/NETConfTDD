@@ -7,16 +7,14 @@ namespace NETConfTDD.Tests
     public class RomanNumeralsTests
     {
         [TestMethod]
-        public void Should_ArabicToRoman_When_1_Return_I()
+        public void WhenInputIs1ThenShouldReturnI()
         {
-            //Arrange
-            string esperado = "I";
-
-            //Act
+            //Arrange - Setup
+            string expected = "I";
+            //Act - Exec
             string actual = RomanNumerals.ArabicToRoman(1);
-
             //Assert
-            Assert.AreEqual(esperado, actual);
-        }
+            Assert.AreEqual(expected, actual);
+        }      
     }
 }
