@@ -52,8 +52,8 @@ Refactorizamos, si podemos.
 ### Por hacer:
 Generen las pruebas y sus correspondientes implementaciones para los siguientes casos:
 
-* ` public void Should_ArabicToRoman_When_2_Return_II()`
+* ` public void WhenInputIs2ThenShouldReturnII()`
 
-* `public void Should_ArabicToRoman_When_3_Return_III()`
+* `public void WhenInputIs3ThenShouldReturnIII()`
 
 [Step 1 solution](https://github.com/luisfelipediaz/NETConfTDD/tree/Step1)
