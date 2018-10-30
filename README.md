@@ -6,7 +6,7 @@ TDD (Test Driven Development)
 
 ### Practiquemos con más casos
 
-** Mediante el ciclo TDD escriban y resuelvan los casos para los números 4, 5, 6, 7 y 8.
+**Mediante el ciclo TDD escriban y resuelvan los casos para los números 4, 5, 6, 7 y 8.**
 
 Y recuerden amigos... solo escriban en cada caso el MÍNIMO CÓDIGO PARA QUE PASE LA PRUEBA.
 
