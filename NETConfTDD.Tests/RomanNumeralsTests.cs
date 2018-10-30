@@ -113,13 +113,25 @@ namespace NETConfTDD.Tests
         }
 
         [TestMethod]
-        public void Should_ArabicToRoman_Return_XX_WhenCalledWith_20()
+        public void ArabicToRoman_From_XX_To_XXIX()
         {
-            string expected = "XX";
+            string expected1 = "XX";
+            string expected2 = "XXI";
+            string expected3 = "XXIV";
+            string expected4 = "XXV";
+            string expected5 = "XXIX";
 
-            string actual = RomanNumerals.ArabicToRoman(20);
+            string actual1 = RomanNumerals.ArabicToRoman(20);
+            string actual2 = RomanNumerals.ArabicToRoman(21);
+            string actual3 = RomanNumerals.ArabicToRoman(24);
+            string actual4 = RomanNumerals.ArabicToRoman(25);
+            string actual5 = RomanNumerals.ArabicToRoman(29);
 
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected1, actual1);
+            Assert.AreEqual(expected2, actual2);
+            Assert.AreEqual(expected3, actual3);
+            Assert.AreEqual(expected4, actual4);
+            Assert.AreEqual(expected5, actual5);
         }
     }
 }
