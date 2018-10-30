@@ -9,11 +9,16 @@ namespace NETConfTDD
         {
             StringBuilder romanNumber = new StringBuilder();
             ConvertDigit(number, romanNumber);
-
-            if (number >= 10)
+            if (number >= 10 && number <= 19)
             {
                 romanNumber.Append("X");
                 number -= 10;
+                ConvertDigit(number, romanNumber);
+            }
+            else if (number >= 20)
+            {
+                romanNumber.Append("XX");
+                number -= 20;
                 ConvertDigit(number, romanNumber);
             }
 
